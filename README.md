@@ -3,6 +3,23 @@
 
 Sistem login dan registrasi prosedural murni menggunakan PHP native. Proyek ini dibangun murni untuk membedah logika fundamental autentikasi dan manajemen sesi (session) tanpa intervensi framework atau database relasional.
 
+## 📝 Syarat & Kriteria Tugas yang Diselesaikan
+
+Proyek ini telah memenuhi seluruh kriteria penugasan berikut:
+
+- [x] **Form registrasi dengan validasi (nama, email, password)**.
+- [x] **Validasi email dengan filter_var()**.
+- [x] **Password di-hash dengan password_hash()**.
+- [x] **Data disimpan di file JSON**.
+- [x] **Cek duplikasi email saat registrasi**.
+- [x] **Sistem login dengan session**.
+- [x] **Dashboard yang diproteksi (redirect jika belum login)**.
+- [x] **Logout functionality (session_destroy)**.
+- [x] **Sanitasi input dengan htmlspecialchars()**.
+- [x] **Pesan error & sukses yang jelas**.
+
+---
+
 ## Fitur Fungsional
 1. Registrasi pengguna dengan validasi kelengkapan form dan verifikasi format email (`filter_var`).
 2. Kriptografi password standar industri menggunakan `password_hash()`.
