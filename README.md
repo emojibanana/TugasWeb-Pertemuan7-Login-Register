@@ -1,4 +1,5 @@
 # Sistem Autentikasi Dasar PHP (Berbasis JSON)
+[![BETA](https://img.shields.io/badge/status-BETA-yellow)](https://github.com/emojibanana/TugasWeb-Pertemuan7-Login-Register)
 
 Sistem login dan registrasi prosedural murni menggunakan PHP native. Proyek ini dibangun murni untuk membedah logika fundamental autentikasi dan manajemen sesi (session) tanpa intervensi framework atau database relasional.
 
