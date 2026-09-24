@@ -1,4 +1,4 @@
-# Login / Register Tugas 7 🧠
+# Login / Register Tugas 7
 [![BETA](https://img.shields.io/badge/status-BETA-yellow)](https://github.com/emojibanana/TugasWeb-Pertemuan7-Login-Register)
 
 Sistem login dan registrasi prosedural murni menggunakan PHP native. Proyek ini dibangun murni untuk membedah logika fundamental autentikasi dan manajemen sesi (session) tanpa intervensi framework atau database relasional.
@@ -38,6 +38,14 @@ Proyek ini telah memenuhi seluruh kriteria penugasan berikut:
 1. Tempatkan seluruh file proyek ini ke dalam direktori *document root* web server lokal Anda (misalnya di dalam folder `www` jika menggunakan Laragon, atau konfigurasi root pada FlyEnv).
 2. Pastikan file `users.json` sudah ada, berisi tepat array kosong `[]`, dan direktori memiliki hak akses tulis (write permissions) untuk web server.
 3. Buka browser dan navigasikan ke: `http://localhost/nama-folder-proyek/register.php`
+
+## 🧠 Rencananya
+
+- Tambah Header
+- Tambah Footer
+- Desain visual yang modern dan bersih
+- Tambah animasi bagus
+
 
 ## 📂 Struktur Direktori
 ```text
