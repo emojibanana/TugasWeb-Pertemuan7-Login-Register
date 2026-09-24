@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     $password = $_POST['pass'];
 
     //validasi
-    if (empty($nama) || empty($email || empty($password))) {
+    if (empty($nama) || empty($email) || empty($password)) {
         $pesan = "Isi Semua Dulu Woi!";
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $pesan = "Email nya Gk Betol!";

@@ -40,18 +40,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="">
      <?php if ($pesan) echo "$pesan"; ?>
 
     <form action="" method="POST">
+        <label for="">Email :</label>
         <input type="email" name="email" placeholder="Email">
+        <label for="">Password :</label>
         <input type="password" name="pass" placeholder="Password (min 6 karakter)">
-        <button type="submit">Masuk</button>
+        <button type="submit" class="">Masuk</button>
     </form>
 
     <p>Belom Punya Akun?
-        <a href="register.php">Register</a>
+        <a href="register.php" class="text-gray-600 hover:text-blue-600 transition-color duration-200">Register</a>
     </p>
 </body>
 </html>
